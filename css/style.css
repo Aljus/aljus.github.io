@@ -1,0 +1,80 @@
+/* CSS Document */
+body {
+	background-image: url(../img/box.jpg);
+    background-repeat: repeat;
+	color:#321333;
+	font-size:24px;
+	font-family:Gabriola, Arial, Helvetica, sans-serif;
+}
+#box {
+	background: url(../img/paper.jpg) repeat center;
+	border-radius: 7px;
+	width: 1190px;
+	border: 1px solid #DADADA;
+	margin: 20px auto;
+	padding: 15px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+hr {
+	width: 60%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+.header {
+	width: auto;
+}
+.header img {
+	float:left;
+	margin-right:10px;
+}
+.clearfloat {
+	clear:both;
+	line-height: 0px;
+}
+h1 { 
+    font-family:Segoe script, Arial, cursive;
+	font-size: 30px; text-shadow:4px 4px 5px #AAAAAA; color:#000;
+	padding-top:20px;
+}
+h2 { 
+	padding:0;
+	margin:0;
+}
+ul {
+
+	margin:0 10px;
+}
+  table {
+    width: 900px; /* Ширина таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+   }
+   td {
+    text-align: left; /* Выравниваем текст по центру ячейки */
+   }
+   TD, TH {
+    padding: 10px; /* Поля вокруг содержимого ячеек */
+   }
+
+a.button {
+  display: inline-block;
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+  margin:20px 10px 10px 90px;
+  padding: 0 30px;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+} 
+a.button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+		  
