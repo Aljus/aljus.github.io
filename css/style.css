@@ -50,7 +50,7 @@ ul {
 	margin:0 10px;
 }
   table {
-    width: 900px; /* Ширина таблицы */
+    width: 100%; /* Ширина таблицы */
     margin: auto; /* Выравниваем таблицу по центру окна  */
    }
    td {
@@ -77,4 +77,14 @@ a.button {
 } 
 a.button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
 a.button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
-		  
+a:link	{
+	text-decoration: none;
+	color: #000; 
+	}	
+a:visited	{
+	text-decoration: none;
+	color: #000;
+	}
+a:hover	{
+	text-decoration: none;
+	color: #FF7919; }		  
